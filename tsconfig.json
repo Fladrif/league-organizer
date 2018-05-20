@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "commonjs",
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noStrictGenericChecks": true,
+    "downlevelIteration": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "root*": ["src*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "target": "es2017",
+    "lib": ["es2017", "es2017.object", "esnext.asynciterable"]
+  },
+  "include": ["./src/**/*", "./typings/**/*"],
+  "exclude": [],
+  "jest": {
+    "mapCoverage": true
+  }
+}

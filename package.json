@@ -9,6 +9,7 @@
   "author": "Jonathan Li",
   "license": "ISC",
   "dependencies": {
+    "@slack/client": "^4.2.0",
     "@types/bluebird": "^3.5.20",
     "@types/lodash": "^4.14.108",
     "@types/node": "^10.0.6",
