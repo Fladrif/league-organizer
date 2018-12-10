@@ -8,10 +8,12 @@
     "noStrictGenericChecks": true,
     "downlevelIteration": true,
     "noEmitOnError": true,
+    "emitDecoratorMetadata": true,
     "strict": true,
     "declaration": true,
     "inlineSourceMap": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
       "root*": ["src*"]
